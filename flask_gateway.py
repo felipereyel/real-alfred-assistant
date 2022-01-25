@@ -3,8 +3,8 @@ import json
 from flask import Flask
 
 api_url = 'https://api.jsonbin.io/b'
-bin_ID = '5ce43b79838e9b0c10bcd344'
-secret_key = '$2a$10$x6s7qqp.6PqaM5uyQoyIRu23f3awCM5freqJFM7Pfqdn3s5FgX7sa'
+bin_ID = '<BIN-ID>'
+secret_key = '<JSONBON-API-KEY>'
 
 
 def read_from_db():
